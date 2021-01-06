@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="nav-header" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left visible-md visible-lg">
+              <div id="site-logo" alt="site-logo"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a href="index.html">
+                <h1>David Chu's China Bistro</h1>
+              </a>
+              <p>
+                <img src="images/star-k-logo.png" alt="Kosher Certified" />
+                <span>Kosher Certified</span>
+              </p>
+            </div>
+
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#collapsable-menu"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div id="collapsable-menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="visible-xs">
+                <a href="#" onclick="dc.loadCategory()">
+                  <span class="glyphicon glyphicon-home"></span>
+                  <p>Home</p>
+                  <p></p
+                ></a>
+              </li>
+              <li>
+                <a href="#" onclick="dc.loadCategory()">
+                  <span class="sr-only">(current)</span>
+                  <span class="glyphicon glyphicon-cutlery"></span>
+                  <p>Menu</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-info-sign"></span>
+                  <p>About</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-certificate"></span>
+                  <p>Awards</p>
+                </a>
+              </li>
+              <li id="phone-number" class="visible-lg visible-md visible-sm">
+                <a href=""><span>410-602-5008</span></a>
+                <p>*We Deliver</p>
+              </li>
+            </ul>
+          </div>
+          <!-- collapsable-menu ends -->
+        </div>
+        <!-- container ends -->
+      </nav>
+      <!-- nav-header ends -->
+    </header>
+
+    <!-- display a call button on the extreme small screen  -->
+    <a id="phone-xs" class="visible-xs btn" href="#">
+      <span class="glyphicon glyphicon-earphone text-center"></span>
+      <span class="text-center">410-602-5008</span>
+    </a>
+    <div id="deliver-xs" class="text-center visible-xs">* WE DELIVER</div>
+
+    <!-- main content of the page -->
+    <div id="main-content" class="container"></div>
+
+    <!-- footer -->
+    <footer id="footer-info">
+      <div class="container">
+        <div class="row">
+          <section id="open-hour" class="col-md-4 col-sm-4 col-xs-12">
+            <h3>Hours:</h3>
+            <p>Sun-Thurs: 11:15am - 10:00pm</p>
+            <p>Fri: 11:15am - 2:30pm</p>
+            <p>Saturday Closed</p>
+            <hr class="visible-xs" />
+          </section>
+
+          <section class="col-md-4 col-sm-4 col-xs-12">
+            <h3>Address:</h3>
+            <p>7105 Resiterstown Road</p>
+            <p>Baltimore, MD 21215</p>
+            <p id="delivery-info">
+              * Delivery area within 3-4 miles, with minimum order of $20 plus
+              $3 charge for all deliveries.
+            </p>
+            <hr class="visible-xs" />
+          </section>
+
+          <section id="footer-comment" class="col-md-4 col-sm-4 col-xs-12">
+            <p>
+              <i
+                >"The best Chinese restaurant I've been to! And that's saying a
+                lot, since I've been to many!"</i
+              >
+            </p>
+            <p>
+              <i
+                >"Amazing food! Great service! Couldn't ask for more! I'll be
+                back again and again!"</i
+              >
+            </p>
+          </section>
+        </div>
+
+        <div id="copyright-info" class="text-center">
+          <span>&copy; Copyright David Chu's China Bistro 2016 |</span>
+          <a href="">Admin</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax-util.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

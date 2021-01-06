@@ -1,0 +1,399 @@
+body{
+	background-color: #61122f;
+	margin: 0px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+/*HEADER START*/
+#nav-header{
+	background-color: #f6b319;
+	border: 0px;
+	border-radius: 0px;
+}
+
+#site-logo{
+	background: url("../images/restaurant-logo_large.png") no-repeat;
+	height: 150px;
+	width: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+} 
+
+.navbar-brand{
+	padding: 20px 20px;
+}
+
+.navbar-brand h1{
+	color:#006400;
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 1.5em;
+}
+
+.navbar-brand a:hover{
+	text-decoration: none;
+	color: #006400;
+}
+
+.navbar-brand span{
+	color:#000000;
+	text-transform: uppercase;
+	font-size: .8em;
+}
+
+.navbar-brand img{
+	margin-left: 10px;
+}
+
+.navbar-header button{
+	clear: both;
+}
+
+.navbar-header button span, .navbar-toggle{
+	border: 1px solid #61122f;
+}
+
+#collapsable-menu a{
+	margin-top: 15px;
+	color: #61122f;
+	text-align: center;
+	font-weight: 100;
+	padding-bottom: 0px;
+}
+
+/*styling menu items(logo)*/
+#collapsable-menu a span{
+	font-size: 1.8em;
+	margin-bottom: 5px;
+	margin-top: -5px;
+	}
+
+#collapsable-menu a:hover{
+	background-color: white;
+}	
+
+
+#phone-number p{
+	color: #006400;
+	text-align: right;
+	padding-right: 15px;
+}
+
+#phone-xs{
+	font-size: 1.5em;
+	padding: 10px 15px;
+    color: #61122f;
+    margin: 0 15px;
+ 	border-radius: 5px;
+	border: 2px solid #fff;
+    background-color: #f6b319;   
+}
+
+#deliver-xs{
+	color: #fff;
+	font-size: .8em;
+	margin-top: 5px;
+}
+/*HEADER ENDS*/
+
+/*MAIN CONTENT OF THE PAGE STARTS*/
+.container .jumbotron{
+	border: 2px solid #3F0C1F;
+	margin-top: 30px; 
+}
+
+.row{
+	margin-bottom: 40px;
+}
+
+
+#menu-section, #special-section, #map-section{
+	height: 250px;
+	border: 2px solid #3F0C1F;
+	border-radius: 5px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 15px;
+
+}
+
+#menu-section span, #special-section span, #map-section span{
+	width: 100%;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	font-size: 1.5em;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#menu-section{
+	background: url(../images/menu-tile.jpg) no-repeat;
+}
+
+#special-section{
+	background: url(../images/specials-tile.jpg) no-repeat;
+}
+
+#map-section{
+	overflow: hidden;
+}
+
+#menu-section:hover, #special-section:hover, #map-section:hover{
+	box-shadow: 0px 0px 5px 1px white;
+}
+/*MAIN CONTENT OF THE PAGE ENDS*/
+
+
+/*MENU CATEGORY STARTS*/
+.menu-category-title{
+	color: white;
+	margin-bottom: 50px; 
+
+}
+
+.category-tiles{
+	position: relative;
+	border: 2px solid #3F0C1F;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin:0 auto 15px;
+
+}
+
+.category-tiles span{
+	color: white;
+	font-size: 1.2em;
+	width: 100%;
+	background-color: black;
+	opacity: 0.8;
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+
+}
+/*MENU CATEGORY ENDS*/
+
+
+/*MENU ITEM STARTS*/
+#menu-items section{
+	margin-bottom: 15px;
+} 
+
+.menu-image-price{
+	color: white;
+	position: relative;
+	border: 2px solid #3F0C1F;
+}
+
+.menu-image-price p{
+	width: 40%;
+	background-color: green;
+	text-align: center;
+	opacity: 0.8;
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+}
+
+.item-price{
+	color: white;
+	font-size: 1.1em; 
+	text-align: right;
+}
+
+.item-price span{
+	font-size: .6em;
+}
+
+.menu-item-desc h3{
+	color: white;
+	margin-top: 0px;
+}
+
+.menu-item-desc i{
+	font-size: 16px;
+}
+
+#menu-items hr{
+	width: 80%;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+@media (min-width: 768px){
+	.col-sm-7{
+		width: 58.333333%;
+
+	}
+
+	.col-sm-5{
+		width: 41.666666%;
+		padding-right: 0px;
+		float: left;
+	}	
+}
+
+@media (max-width: 768px){
+	div.menu-image-price{
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.item-price {
+		text-align: center;
+	}
+
+	.menu-item-desc{
+		text-align: center;
+	}
+
+	.item-price{
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+}
+/*MENU ITEM ENDS*/
+
+
+
+/*FOOTER STARTS*/
+#footer-info{
+	color: #FFFFFF;
+	background-color: #282828;
+}
+
+#footer-comment{
+	margin-top: 20px;
+}
+
+#footer-comment p:nth-child(1){
+	margin-bottom: 20px;
+}
+
+#delivery-info{
+	font-size: .8em;
+	color: #006400;
+}
+
+#copyright-info{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#copyright-info a{
+	color: #FFFFFF;
+}
+
+#footer-info hr{
+	width: 50%;
+}
+
+
+/******RESPONSIVE*******/
+
+/************************Large Device***************************/
+@media (min-width: 1200px){
+	/*MAIN CONTENT*/
+	.container .jumbotron{
+		background-image: url(../images/jumbotron_1200.jpg);
+		height: 675px;
+	}
+}
+
+/************************Medium Device***************************/
+@media (min-width: 992px) and (max-width: 1199px){
+	/*HEADER STARTS*/
+	#site-logo {
+		background: url(../images/restaurant-logo_medium.png) no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 0px;
+		margin-top: 2px;
+	}
+	/*HEADER ENDS*/
+
+	/*MAIN CONTENT*/
+	.container .jumbotron{
+		background: url(../images/jumbotron_992.jpg) no-repeat;
+		height: 558px;
+	}
+}
+
+
+/************************Small Device***************************/
+@media (min-width: 768px) and (max-width: 991px){
+	
+	/*MAIN CONTENT*/
+	.container .jumbotron{
+		background: url(../images/jumbotron_768.jpg) no-repeat;
+		height: 432px;
+	}
+
+	/*MENU ITEMS STARTS*/
+	.menu-image-price{
+		width: 250px;
+	}	
+}
+
+
+/************************Extra Small Device***************************/
+@media (max-width: 767px){
+	/*HEADER STARTS*/
+	#collapsable-menu a p{
+		display: inline;
+		margin-left: 5px;
+		margin-bottom: 5px;
+	}
+
+	#collapsable-menu li span{
+		font-size: 1.2em;
+	}
+
+	.navbar-brand {
+		padding: 0px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+	    font-size: 5vw;
+	}
+	.navbar-header button{
+		margin-top: 0px;
+	}
+
+	
+	/*MAIN CONTENT*/
+	.container .jumbotron{
+		padding: 0px;
+		border: 2px solid #61122f;
+	}
+
+	#menu-section, #special-section{
+		width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	/*MAIN CONTENT ENDS*/
+
+	/*FOOTER*/
+	#footer-info section{
+		text-align: center;
+	}
+}
+
+/************************Extreme Small Device(xxs)***************************/
+@media(max-width: 479px){
+	.col-xxs-12{
+		width: 100%;
+	}
+
+}
