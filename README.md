@@ -12,5 +12,7 @@ Here is the link to the original website [https://www.davidchuschinabistro.com/#
 ### 3. Single Category
 ![category](screenshots/category.jpg)
 
-## Languages
-* JavaScript * HTML * CSS
+## Languages Used 
+* JavaScript 
+* HTML 
+* CSS
